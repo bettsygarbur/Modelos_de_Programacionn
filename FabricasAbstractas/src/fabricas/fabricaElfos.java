@@ -3,7 +3,7 @@ package FabricasAbstractas.src.fabricas;
 import FabricasAbstractas.src.productos.*;
 import FabricasAbstractas.src.productos.elfos.*;
 
-public class FabricaElfos extends FabricasAbstractas.src.fabricas.FabricaAbstracta {
+public class FabricaElfos extends FabricaAbstracta {
     private static FabricaElfos instancia;
 
     private FabricaElfos() {}
