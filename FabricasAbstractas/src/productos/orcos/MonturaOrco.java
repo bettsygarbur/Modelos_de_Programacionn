@@ -4,7 +4,11 @@ import FabricasAbstractas.src.productos.IMontura;
 
 public class MonturaOrco implements IMontura {
     @Override
-    public void mostrar() {
-        System.out.println("Montura de Orco creada.");
+    public String obtenerDescripcion() {
+    return "El lobo de guerra orco, una bestia salvaje criada en manadas. "
+     + "Es feroz y difícil de domar, pero leal a su jinete orco. "
+     + "Su velocidad y ferocidad lo convierten en un depredador letal en los campos de batalla.";
+
     }
 }
+

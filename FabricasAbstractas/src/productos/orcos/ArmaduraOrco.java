@@ -4,7 +4,9 @@ import FabricasAbstractas.src.productos.IArmadura;
 
 public class ArmaduraOrco implements IArmadura {
     @Override
-    public void mostrar() {
-        System.out.println("Armadura de Orco creada.");
+    public String obtenerDescripcion() {
+    return "La armadura orca está compuesta de placas de hierro burdo y pieles endurecidas. "
+     + "Su diseño no busca estética, sino intimidación y supervivencia. "
+     + "Ofrece gran protección contra ataques cuerpo a cuerpo, aunque sacrifica movilidad.";
     }
 }

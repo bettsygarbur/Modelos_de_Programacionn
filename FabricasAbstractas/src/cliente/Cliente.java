@@ -38,10 +38,10 @@ public class Cliente {
 
         System.out.println("\n=== Objeto creado ===");
         switch (opcionProducto) {
-            case 1 -> fabrica.crearCuerpo().mostrar();
-            case 2 -> fabrica.crearMontura().mostrar();
-            case 3 -> fabrica.crearArma().mostrar();
-            case 4 -> fabrica.crearArmadura().mostrar();
+            case 1 -> System.out.println(fabrica.crearCuerpo().obtenerDescripcion());
+            case 2 -> System.out.println(fabrica.crearMontura().obtenerDescripcion());
+            case 3 -> System.out.println(fabrica.crearArma().obtenerDescripcion());
+            case 4 -> System.out.println(fabrica.crearArmadura().obtenerDescripcion()); 
             default -> System.out.println("Opción no válida.");
         }
     }

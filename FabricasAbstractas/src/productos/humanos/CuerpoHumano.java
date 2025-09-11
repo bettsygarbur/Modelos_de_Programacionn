@@ -4,7 +4,11 @@ import FabricasAbstractas.src.productos.ICuerpo;
 
 public class CuerpoHumano implements ICuerpo {
     @Override
-    public void mostrar() {
-        System.out.println("Cuerpo de Humano creado.");
+    public String obtenerDescripcion() {
+    return "El cuerpo humano pertenece a una civilización versátil y equilibrada. "
+        + "Los humanos no destacan en fuerza ni en agilidad, pero poseen una gran adaptabilidad. "
+        + "Son resistentes a largas batallas y tienen la capacidad de aprender diversas técnicas, "
+        + "lo que los convierte en soldados confiables en cualquier ejército.";
+
     }
 }
